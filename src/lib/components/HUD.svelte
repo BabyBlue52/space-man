@@ -1,6 +1,7 @@
 <script>
     import Year from "./models/2024.svelte";
     import Typewriter from "./Typewriter.svelte";
+    import ControllerUI from "./ControllerUI.svelte";
 </script>
 <div class="hud">
     <div style="transform:scale(0.9);margin-left: -10px">
@@ -9,12 +10,15 @@
             <p>We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard.</p>
         </div>
     </div>
-    <div class="year-link">
+    <section class="year-link">
         <Year/>
-    </div>
-    <div>
+    </section>
+    <section>
+        <ControllerUI/>
+    </section>
+    <section>
         <Typewriter/>
-    </div>
+    </section>
 </div>
 <style lang="scss">
     @import '../variables.scss';
@@ -31,6 +35,14 @@
             bottom: 30px;
             left: 2px;
         }
+        .year-link {
+                position:absolute;
+                bottom: 65px;
+                right: 5px;
+                height: 20px;
+                width: 20px;
+            
+            }    
      
     }
     @media screen and (max-width: 600px){

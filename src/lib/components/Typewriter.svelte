@@ -46,8 +46,8 @@ onMount(() =>{
         width: max-content;
         
         position: absolute;
-        bottom: 20px;
-        left: 20px;
+        bottom: 0px;
+        left: 5px;
         max-width: 200px;
     }
     h3 {

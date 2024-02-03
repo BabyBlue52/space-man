@@ -1,7 +1,7 @@
   @import "./variables.scss";
 
 * {
-    transition: 350ms  ease-in-out all ;
+    transition: 150ms  ease-in-out all ;
 }
 html,body {
   position: absolute;
@@ -15,6 +15,7 @@ html,body {
   font-family: 'Nunito', sans-serif;
 }
 h1 {     
+  font-size: 5vh;
   font-family: $headline;
   text-transform: uppercase; 
   color: $black;
@@ -25,8 +26,16 @@ h3 {
 }
 p {
   font-family: $body;
+  max-width: 33vw;
 }
-
+button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  padding: 0;
+  background:none;
+  cursor: pointer;
+}
 /*
 =================================
 Mobile 
