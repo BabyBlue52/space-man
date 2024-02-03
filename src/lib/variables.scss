@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('./fonts/GillSans-Light.woff2') format('woff2'),
+        url('./fonts/GillSans-Light.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$body: 'Open Sans', sans-serif;
+$headline: 	'Gill Sans', sans-serif; 
+$jonSnow: #e5e5e5;
+$black: #333333;
